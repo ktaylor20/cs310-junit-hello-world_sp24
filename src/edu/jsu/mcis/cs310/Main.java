@@ -10,6 +10,11 @@ public class Main {
         System.out.println(message);
         System.out.println(m.reverse(message));
         
+        StringBuilder str = new StringBuilder ("Hello, World!" + "\n" + "I'm a Little Teapot" + "\n" + "Hey Diddle Diddle" + "\n" + "Hickory Dickory Dock");
+        
+        StringBuilder reverseStr = str.reverse();
+        
+        System.out.println(reverseStr);
     }
     
     public String getGreeting() {
